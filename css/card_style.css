@@ -126,8 +126,8 @@ body {
 .card-fullname {
   position: absolute;
   bottom: 0;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 25px;
+  /* font-weight: 700; */
   text-align: center;
   white-space: nowrap;
   transform: translateY(-10px) translateX(-50%);

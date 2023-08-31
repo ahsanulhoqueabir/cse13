@@ -1,4 +1,14 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+/* font-family: 'Audiowide', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Blaka Hollow', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+
 @font-face {
     font-family: 'primary';
     src: url(../fonts/BPdotsUnicase.otf),url(../fonts/BPdotsUnicaseBold.otf),url(../fonts/BPdotsUnicaseLight.otf);
@@ -51,14 +61,10 @@
 }
 .cse
 {
-    /* position: fixed;
-    z-index: 5;
-    writing-mode: vertical-rl;
-    margin: 0;
-    white-space: nowrap; */
-    /* translate: 20%; */
-    /* padding-top: -200px; */
-    /* position: sticky; */
+    font-family: 'primary',sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 80px;
 }
 header{
     width: 100%;
@@ -80,9 +86,11 @@ h1,h4{
 }
 h1{
     font-family: 'jogan',sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-weight: 450; */
+    /* font-family: 'Noto Serif', serif; */
+    /* font-size: 20px; */
+    line-height: 30px;
 }
 h2{
     font-family: semi-title;
