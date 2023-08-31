@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: 'primary';
+    src: url(../fonts/BPdotsUnicase.otf),url(../fonts/BPdotsUnicaseBold.otf),url(../fonts/BPdotsUnicaseLight.otf);
+}
+@font-face {
+    font-family: 'semi-title';
+    src: url(../fonts/Capture\ it.ttf);
+}
+@font-face {
+  font-family: 'smile';
+  src: url(../fonts/PetiteSmile-51JrZ.ttf);
+}
+@font-face {
+    font-family: 'origin';
+    src: url(../fonts/OriginTech\ personal\ use.ttf);
+  }
+@font-face {
+    font-family: 'digital';
+    src: url(../fonts/Digital\ Play\ St.ttf);
+}
+@font-face {
+    font-family: 'jogan';
+    src: url(../fonts/JoganSoft-Regular.ttf);
+}
+
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: teal;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+
+*{
+    margin: 0;
+}
+.card-avatar
+{
+    /* background-color: teal; */
+    background-image: url("https://i.ibb.co/GR1XDj3/1.png");
+    height: 50px;
+    width: 50px;
+}
+.cse
+{
+    /* position: fixed;
+    z-index: 5;
+    writing-mode: vertical-rl;
+    margin: 0;
+    white-space: nowrap; */
+    /* translate: 20%; */
+    /* padding-top: -200px; */
+    /* position: sticky; */
+}
+header{
+    width: 100%;
+}
+.navicon{
+    text-align: center;
+    /* width: 100%; */
+}
+.navicon>img{
+    height: 400px;
+    width: 550px;
+}
+h1,h2{
+    text-align: center;
+}
+h1,h4{
+    color: aliceblue;
+    text-shadow: 0 0 20px black;
+}
+h1{
+    font-family: 'jogan',sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+h2{
+    font-family: semi-title;
+    letter-spacing: 5px;
+}
+.bflex{
+    display: flex;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+.bflex h5
+{
+    font-size: 15px;;
+}
+.blood img{
+    height: 20px;
+    width: 20px;
+}
+.blood{
+    
+    padding-right: 10px;
+    border-right: 1px gainsboro solid;
+    
+}
+footer{
+  background-image: url(../img/Circuit\ Board\ \(1\).svg);
+  margin: 30px 0 0 0;
+  width: 100%;
+  -webkit-box-shadow: inset 9px 12px 53px 1px rgba(0,0,0,0.48);
+-moz-box-shadow: inset 9px 12px 53px 1px rgba(0,0,0,0.48);
+box-shadow: inset 9px 12px 53px 1px rgba(0,0,0,0.48);
+    border-radius: 10px;
+}  
+
+/* footer h3{
+    padding: 20px 0px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 20px black;
+} */
+.footer{
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.outline{
+  color: white;
+  outline-style: solid;
+  padding: 10px;
+  border-radius: 8px;
+}
