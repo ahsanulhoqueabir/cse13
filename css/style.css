@@ -47,11 +47,77 @@ font-family: 'Press Start 2P', cursive; */
     background-color: aquamarine;
     border-radius: 10px;
 }
+/* .loader{
+    /* width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+.loader-hidden
+{
+    opacity: 0;
+    visibility: hidden;
+}
+.loader::after
+{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid teal;
+    border-top-color: gray;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+} */ 
+/* .text
+{
+    color: aquamarine;
+    margin-bottom: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
 
-
+}
+.loading
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 *{
     margin: 0;
 }
+/* .loader
+{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    box-sizing: border-box;
+    
+} */
 .card-avatar
 {
     /* background-color: teal; */
